@@ -1,4 +1,5 @@
-### Basic Library Files - p5.boilerplate
-Basic Libraries for both P5 Editor and Physics Engine
+### WMSC Damage Test
 
-## For direct P5 : https://editor.p5js.org/whitehatjr.priya/sketches/ekvRrFUVJ
+### Worldwide Military Safety Consortium tests the effectiveness of walls against bullets
+
+## Output Link : https://vishnupriya-whitehatjr.github.io/c21-v2-BulletsAndWalls-WMSC/
