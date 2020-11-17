@@ -6,26 +6,26 @@ function setup() {
   wall = createSprite(900,200,30,300);
   bullet.velocityX = 10;
   bullet.shapeColor ="white";
-  wall.shapeColor ="#505050";
+  wall.shapeColor ="#1d1a3b";
   speed = Math.floor(random(223,321));
   weight = Math.floor(random(30,52));
   thickness = Math.floor(random(22,83));
 }
 
 function draw() {
-  background("lavender");
+  background("#676670");
   drawSprites();
 
-  fill("black");
+  fill(255);
   textSize(25);
   text("WORLDWIDE MILITARY SAFETY CONSORTIUM",220,50);
 
   collide(bullet,wall);
   
-  textSize(15);
-  text("Damage is : < 10 ===> Wall is effective against Bullets",30,340);
-  text("Damage is : > 10 ===> Wall is not effective against Bullets",30,360);
-  fill("purple");
+  textSize(20);
+  text("Damage is : < 10 | Wall is effective against Bullets",30,340);
+  text("Damage is : > 10 | Wall is not effective against Bullets",30,360);
+  fill("yellow");
   textSize(25);
   text("DAMAGE IS : "+Math.floor(damage),30,300);
 }
